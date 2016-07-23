@@ -4,3 +4,14 @@
 .second-semester{float: right;
                 border: 1px solid black;}
 .second-semester tr:first-child td:first-child{width: auto;}
+.btn{background-color: #4CAF50;
+    border: 3px solid #4CAF50;
+    color: white;
+    padding: 2px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;}
+
+.btn:hover{background-color: white;
+          color: black;}

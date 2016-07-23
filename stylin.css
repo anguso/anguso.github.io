@@ -1,0 +1,4 @@
+.first-semester{float: left;}
+.first-semester tr:first-child td:first-child {width: auto;}
+.second-semester{float: right;}
+.second-semester tr:first-child td:first-child{width: auto;}

@@ -1,10 +1,25 @@
 .first-semester{float: left;
                 border: 1px solid black;}
 .first-semester tr:first-child td:first-child {width: auto;}
+.first-semester tr:not(:first-child) td{border: 1px solid grey;}
+#lin-alg{background-color: #CCECF4;}
+#princ-of-prog{background-color: #A8A4FB}
+#advanced-calc-1{background-color: #DCF394;}
+#discrete-1{background-color: #A8D3A0;}
+#stats-prob{background-color: #68FE36;}
+
 .second-semester{float: right;
                 border: 1px solid black;}
 .second-semester tr:first-child td:first-child{width: auto;}
-.header {text-align: center}
+.second-semester tr:not(:first-child) td{border: 1px solid grey;}
+#diff-eqs{background-color:#FFD7E3;}
+#advanced-calc-2{background-color: #F8FAA0}
+#software-dev{background-color: #BBFDD7}
+#data-algo{background-color: #FAC892}
+#discrete-2{background-color: #36FED1}
+
+h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 40px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
+body{background-image: url("no-wallpaper-27.jpg")}
 .btn{background-color: #4CAF50;
     border: 3px solid #4CAF50;
     color: black;

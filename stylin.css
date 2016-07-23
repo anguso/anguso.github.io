@@ -1,4 +1,6 @@
-.first-semester{float: left;}
+.first-semester{float: left;
+                border: 1px solid black;}
 .first-semester tr:first-child td:first-child {width: auto;}
-.second-semester{float: right;}
+.second-semester{float: right;
+                border: 1px solid black;}
 .second-semester tr:first-child td:first-child{width: auto;}

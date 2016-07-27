@@ -36,7 +36,3 @@ body{background-image: url("no-wallpaper-27.jpg")}
 .btn:hover{background-color: white;
           color: black;}
 
-
-@media (max-width:400px){.left-wrapper{display:block; float: none}
-                         .right-wrapper{display:block; float:none;}}
-                         

@@ -9,7 +9,7 @@
 #stats-prob{background-color: #68FE36;}
 
 .wrapper{margin-left: 40px; margin-right: 40px}
-.left-wrapper{width: 49%;float:left;display: inline-block;}
+.left-wrapper{width: 49%;float:left;display:inline-block;}
 .right-wrapper{width: 49%; float:right;display:inline-block;}
 
 .second-semester{float: left;
@@ -35,3 +35,7 @@ body{background-image: url("no-wallpaper-27.jpg")}
 
 .btn:hover{background-color: white;
           color: black;}
+
+@media (max-width:400px){.left-wrapper{display:block; float: none}
+                         .right-wrapper{display:block; float:none;}}
+                         

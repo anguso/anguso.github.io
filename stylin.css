@@ -1,5 +1,5 @@
-.first-semester{float: right;
-                border: 1px solid black; }
+.first-semester{float: center;
+                border: 1px solid black; text-align: center; margin:auto;}
 .first-semester tr:first-child td:first-child {width: auto;}
 .first-semester tr:not(:first-child) td{border: 1px solid grey;}
 #lin-alg{background-color: #CCECF4;}
@@ -8,12 +8,12 @@
 #discrete-1{background-color: #A8D3A0;}
 #stats-prob{background-color: #68FE36;}
 
-.wrapper{margin-left: 40px; margin-right: 40px}
-.left-wrapper{width: 49%;float:left;display:inline-block;}
-.right-wrapper{width: 49%; float:right;display:inline-block;}
+.wrapper{margin-left: 40px; margin-right: 40px; display:block;}
+.left-wrapper{width:100%;float:center;display:block;}
+.right-wrapper{width:100%;float:center;display:block;}
 
-.second-semester{float: left;
-                border: 1px solid black; }
+.second-semester{float: center;margin: auto;
+                border: 1px solid black;}
 .second-semester tr:first-child td:first-child{width: auto;}
 .second-semester tr:not(:first-child) td{border: 1px solid grey;}
 #diff-eqs{background-color:#FFD7E3;}
@@ -23,7 +23,8 @@
 #discrete-2{background-color: #36FED1}
 
 h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 40px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
-body{background-image: url("no-wallpaper-27.jpg")}
+body{background:linear-gradient(to bottom,#78AB46,#7FFF00);}
+
 .btn{background-color: #4CAF50;
     border: 3px solid #4CAF50;
     color: black;
